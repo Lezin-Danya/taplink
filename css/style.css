@@ -71,3 +71,50 @@ margin: 6px 0;
   color: #6F6F6F;
   margin-top: 6px;
 }
+
+.card {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  max-width: 275px;
+  margin: auto;
+  gap: 10px;
+  margin-bottom: 6px;
+}
+
+.button {
+  height: 40px;
+  border-radius: 5px;
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 1;
+  width: 100%;
+}
+
+.button.vk {
+  background: #4c75a3;
+}
+
+.button.tg {
+  background: #0088c0;
+}
+
+.button.ig {
+  background: #E1306C;
+}
+
+.button.fb {
+  margin: auto;
+  max-width: 275px;
+  background: #3B5998;
+}
